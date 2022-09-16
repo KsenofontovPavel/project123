@@ -26,4 +26,9 @@ if (number != square && number > 10 && square < 10)
 
 }
 
+// ТАК НЕЛЬЗЯ
+// string num = Console.ReadLine();
+// string res = num[2].ToString();
 
+// int num1 = 456; // 450
+// int res1 = num % 10;
