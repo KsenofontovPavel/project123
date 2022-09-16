@@ -9,10 +9,10 @@
 // a = 9, b = -3 -> да
 // a = -3 b = 9 -> нет
 
-Console.WriteLine("Вводите два числа и мы узнаем является ли первое число квадратом второго");
-Console.Write("Вводите первое число: ");
+Console.WriteLine("Введите два числа и мы узнаем является ли первое число квадратом второго");
+Console.Write("Введите первое число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("Вводите второе число: ");
+Console.Write("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 int sqr_b = b * b;
 if (sqr_b == a)
